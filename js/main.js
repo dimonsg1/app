@@ -12,10 +12,7 @@ $(function(){
         $('.popup-container > input[type="text"]').val('');
     };
 
-    $('.order-call').on('click', function(){
-        showPopup();
-    });
-
+    
     $('.close').on('click', function(){
         clearForm();
         closePopup();
