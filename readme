@@ -17,5 +17,6 @@ git push
 ========================
 ВЕТКИ
 -----------------------
-git checkout -b catalog-filter - создать (переключиться) новую ветку catalog-filter
+git branch catalog-filter создать новую ветку catalog-filter
 git checkout master - переключиться на ветку master
+git checkout -b catalog-filter - создать и переключиться новую ветку catalog-filter
