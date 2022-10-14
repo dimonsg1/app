@@ -21,3 +21,4 @@ git branch catalog-filter создать новую ветку catalog-filter
 git checkout master - переключиться на ветку master
 git checkout -b catalog-filter - создать и переключиться новую ветку catalog-filter
 git branch - посмотреть какие ветки есть
+git push -u app catalog - создать ветку catalog в репозитории app
