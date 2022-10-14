@@ -1,1 +1,32 @@
-ljljljl
+git log - лог операций (q -выход)
+git status - состояние текущих файлов в локальном репозитарии
+
+git init - инициализация локального репозитория в текущей папке
+git add . - добавить все файлы в коммит
+git commit -m "comentar" - создание commit
+git branch -m master - стать мастером операций
+git remote add app https://github.com/dimonsg1/app.git - создать связку удоленного и локального репозитория
+git remote -v - посмотреть удаленный путь репозитория на github.com
+git remote remove original - удалить путь связку с удаленным репозитарием original
+
+git clone https://github.com/dimonsg1/app.git  - клонирование репозитория
+git pull - скачать обновления с удаленного репозитория
+git push -u original master - отправить локальный репозиторий в удаленный первый раз далее
+git push
+
+========================
+ВЕТКИ
+-----------------------
+git branch catalog-filter создать новую ветку catalog-filter
+git checkout master - переключиться на ветку master
+git checkout -b catalog-filter - создать и переключиться новую ветку catalog-filter
+git branch - посмотреть какие ветки есть в локальном репозитарии
+git branch -a - посмотреть все ветки и везде
+git push -u app catalog - создать ветку catalog в репозитории app
+
+git stash -отложить не за комитченые изменения в stash
+git stash pop - вернуться назад к отложенному stash0
+git stash list - посмотреть отложенные изменения
+git stash drop 0 - удалить stash0
+
+git merge master - залить в текущую ветку все обновления с ветки master
