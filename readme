@@ -23,7 +23,9 @@ git checkout -b catalog-filter - создать и переключиться новую ветку catalog-fil
 git branch - посмотреть какие ветки есть в локальном репозитарии
 git branch -a - посмотреть все ветки и везде
 git push -u app catalog - создать ветку catalog в репозитории app
-git stash -отложить не за комитченые изменения
-git stash pop - вернуться назад к отложенному
 
+git stash -отложить не за комитченые изменения в stash
+git stash pop - вернуться назад к отложенному stash0
+git stash list - посмотреть отложенные изменения
+git stash drop 0 - удалить stash0
 
