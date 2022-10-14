@@ -29,3 +29,5 @@ git stash pop - вернуться назад к отложенному stash0
 git stash list - посмотреть отложенные изменения
 git stash drop 0 - удалить stash0
 
+git merge master - залить в текущую ветку все обновления с ветки master
+
