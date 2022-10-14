@@ -30,3 +30,8 @@ git stash list - посмотреть отложенные изменения
 git stash drop 0 - удалить stash0
 
 git merge master - залить в текущую ветку все обновления с ветки master
+git reset --hard - отменить слияние веток
+
+Программа для обработки слияний в ручном режиме: https://meldmerge.org/
+git config --global merge.tool meld - привязка к git
+git mergetool - вызов программы
