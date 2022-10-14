@@ -19,7 +19,7 @@ git remote remove original - удалить путь связку с удаленным репозитарием origin
 git clone https://github.com/dimonsg1/app.git  - клонирование репозитория
 git pull - скачать обновления с удаленного репозитория
 git push -u original master - отправить локальный репозиторий в удаленный первый раз далее
-git push
+git push 
 
 git diff readmi.txt - показать изменения в файле перед commit (моно сранивать два любых файла или коммита)
 git diff - показать изменения во всех файлах перед commit
